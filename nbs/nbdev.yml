@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_tutorial"
+  site-url: "https://FrancoCV.github.io/nbdev_tutorial"
+  description: "nbdev repo with tests, continuous integration, streamlined PyPI & conda packaging, and a documentation website"
+  repo-branch: main
+  repo-url: "https://github.com/FrancoCV/nbdev_tutorial"
