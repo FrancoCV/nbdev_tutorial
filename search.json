@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core prueba",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()\n\n\nsource\n\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsource\n\n\nsay_bye\n\n say_bye (to)\n\nSay bye to somebody\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\ntest_eq(say_bye(\"Hamel\"), \"Bye Hamel!\")"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_tutorial",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev_tutorial",
+    "section": "Install",
+    "text": "Install\npip install nbdev_tutorial"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_tutorial",
+    "section": "How to use",
+    "text": "How to use\nYou can call modules like the “core_1” module as follow:\n\nfrom nbdev_tutorial import core_1\nprint(core_1.say_hello(\"Bruno\"))\nprint(core_1.say_bye(\"Bruno\"))\n\nHello Bruno!\nBye Bruno!\n\n\nOtra alternativa:\n\nfrom nbdev_tutorial.core_1 import say_hello\nsay_hello(\"Bruno\")\n\n'Hello Bruno!'\n\n\nPodemos llamar al modulo “code_2”\n\nfrom nbdev_tutorial.core_2 import say_hola\nsay_hola(\"Bruno\")\n\n'Hola Bruno!'"
+  },
+  {
+    "objectID": "core_spanish.html",
+    "href": "core_spanish.html",
+    "title": "core prueba",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()\n\n\nsource\n\n\nsay_hola\n\n say_hola (to)\n\nSay hola to somebody\n\ntest_eq(say_hola(\"Hamel\"), \"Hola Hamel!\")"
+  },
+  {
+    "objectID": "app_streamlit.html",
+    "href": "app_streamlit.html",
+    "title": "Streamlit App",
+    "section": "",
+    "text": "sp = StreamlitPatcher()\nsp.jupyter()  # register patcher with streamlit\n\n\nfrom nbdev.export import nb_export\n\nnb_export(\"app_streamlit.ipynb\", lib_path=\"./\", name=\"example\")"
+  }
+]
