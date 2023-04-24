@@ -6,4 +6,10 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/FrancoCV/nbdev_tutorial',
                 'lib_path': 'nbdev_tutorial'},
   'syms': { 'nbdev_tutorial.core': { 'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py'),
-                                     'nbdev_tutorial.core.say_hello': ('core.html#say_hello', 'nbdev_tutorial/core.py')}}}
+                                     'nbdev_tutorial.core.say_bye': ('core.html#say_bye', 'nbdev_tutorial/core.py'),
+                                     'nbdev_tutorial.core.say_hello': ('core.html#say_hello', 'nbdev_tutorial/core.py')},
+            'nbdev_tutorial.core_1': { 'nbdev_tutorial.core_1.foo': ('core.html#foo', 'nbdev_tutorial/core_1.py'),
+                                       'nbdev_tutorial.core_1.say_bye': ('core.html#say_bye', 'nbdev_tutorial/core_1.py'),
+                                       'nbdev_tutorial.core_1.say_hello': ('core.html#say_hello', 'nbdev_tutorial/core_1.py')},
+            'nbdev_tutorial.core_2': { 'nbdev_tutorial.core_2.foo': ('core_spanish.html#foo', 'nbdev_tutorial/core_2.py'),
+                                       'nbdev_tutorial.core_2.say_hola': ('core_spanish.html#say_hola', 'nbdev_tutorial/core_2.py')}}}
